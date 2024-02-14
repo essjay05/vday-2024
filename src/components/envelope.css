@@ -169,13 +169,13 @@
   margin: 150px;
 }
 
-@media screen and (max-width:400px) {
+@media screen and (max-width:500px) {
   #Envelope {
     width: 100%;
   }
 
   .flap {
-    border-top: 190px solid var(--light-magenta-color);
+    border-top: 205px solid var(--light-magenta-color);
     border-bottom: 95px solid transparent;
   }
 
