@@ -176,10 +176,14 @@
 
   .flap {
     border-top: 205px solid var(--light-magenta-color);
+    border-left: 175px solid transparent;
+    border-right: 175px solid transparent;
     border-bottom: 95px solid transparent;
   }
 
   .pocket {
     border-bottom: 150px solid var(--light-pink-color);
+    border-left: 175px solid var(--dark-pink-color);
+    border-right: 175px solid var(--dark-pink-color);
   }
 }
