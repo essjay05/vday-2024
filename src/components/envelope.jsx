@@ -31,11 +31,11 @@ export const Envelope = () => {
           <div className="front pocket"></div>
           <Letter/>
           <div className="hearts">
-            <div className="hearts a1"></div>
-            <div className="hearts a2"></div>
-            <div className="hearts a3"></div>
-            <div className="hearts a4"></div>
-            <div className="hearts a5"></div>
+            <div className="heart a1"></div>
+            <div className="heart a2"></div>
+            <div className="heart a3"></div>
+            <div className="heart a4"></div>
+            <div className="heart a5"></div>
           </div>
         </div>
       </div>
