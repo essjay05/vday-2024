@@ -1,6 +1,7 @@
-import { useEffect, useRef, useState} from "react";
+import { useEffect, useRef, useState} from "react"
 import './envelope.css'
 import { Letter } from './letter'
+import { Hearts } from "./hearts"
 
 export const Envelope = () => {
 
@@ -30,13 +31,7 @@ export const Envelope = () => {
           <div className="front flap"></div>
           <div className="front pocket"></div>
           <Letter/>
-          <div className="hearts">
-            <div className="heart a1"></div>
-            <div className="heart a2"></div>
-            <div className="heart a3"></div>
-            <div className="heart a4"></div>
-            <div className="heart a5"></div>
-          </div>
+          <Hearts/>
         </div>
       </div>
       <div className="button-wrapper">
